@@ -5,10 +5,6 @@ const listingSchema = new mongoose.Schema({
         type:String,
         required: true
     },
-    title:{
-        type:String,
-        required: true
-    },
     description:{
         type:String,
         required: true
@@ -49,7 +45,7 @@ const listingSchema = new mongoose.Schema({
         type:Boolean,
         required:true
     },
-    imageURLs:{
+    imageUrls:{
         type:Array,
         required: true
     },
